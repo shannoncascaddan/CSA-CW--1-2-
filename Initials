@@ -1,0 +1,19 @@
+public class MyClass {
+    public static void main(String args[]) {
+      System.out.println("    SSSSSSSSSSSS       CCCCCCCCCCCC");
+      System.out.println("   SSSSSSSSSSSSSS     CCCCCCCCCCCCCCC ");
+      System.out.println("  SSSSSS     SSSSSS  CCCCCCC     CCCCC");
+      System.out.println(" SSSSSS      SSSSSS  CCCCCC      CCCCC");
+      System.out.println(" SSSSSS              CCCCCC ");
+      System.out.println("    SSSSSSS          CCCCCC ");
+      System.out.println("      SSSSSSS        CCCCCC ");
+      System.out.println("        SSSSSSS      CCCCCC ");
+      System.out.println("          SSSSSSS    CCCCCC ");
+      System.out.println(" SSSSSS   SSSSSSSS   CCCCCC");
+      System.out.println(" SSSSSS   SSSSSSSS   CCCCCC      CCCCC ");
+      System.out.println("  SSSSS   SSSSSSS    CCCCCCC     CCCCC   ");
+      System.out.println("   SSSSSSSSSSSSS      CCCCCCCCCCCCCCC ");
+      System.out.println("    SSSSSSSSSSS        CCCCCCCCCCCCC");
+
+    }
+}
