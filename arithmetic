@@ -1,0 +1,14 @@
+public class MyClass
+{
+    public static void main(String args[]) 
+    {
+      double x = 22.5;
+      double y = 11.5;
+      double sum = x+y;
+      double dif = x-y;
+      double prod = x*y;
+      System.out.println("The sum of the numbers is " + sum);
+      System.out.println("The difference of the numbers is " + dif);
+      System.out.println("The product of the numbers is " + prod);
+    }
+}
