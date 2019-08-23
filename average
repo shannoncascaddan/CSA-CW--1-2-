@@ -1,0 +1,12 @@
+public class MyClass 
+{
+    public static void main(String args[]) 
+    {
+      int x=10;
+      int y=25;
+      int z=11;
+      int xyz = (x+y+z)/3;
+
+      System.out.println("The average of the numbers is " + xyz);
+    }
+}
