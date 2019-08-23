@@ -1,0 +1,19 @@
+public class TempConverter2
+{
+    //Computes the Celcius equivalent of a specific Farenheit
+    // value using the formula F = (9/5)C + 32/
+    public static void main(String args[]) 
+    {
+      final double BASE = -17.7;
+      final double CONVERSION_FACTOR = 5.0 / 9.0;
+      
+      int fahrenheitTemp = 75; // value to convert
+      double celsiusTemp;
+      
+      celsiusTemp = fahrenheitTemp * CONVERSION_FACTOR + BASE;
+      
+      System.out.println ("Fahrenheit Temperature: "+ fahrenheitTemp);
+      System.out.println ("Celsius Equivalant: "+ celsiusTemp);
+      
+    }
+}
