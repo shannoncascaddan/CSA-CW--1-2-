@@ -1,0 +1,26 @@
+public class Name
+{
+    public static void main(String[] args)
+    {
+        String firstName = new String ("Shannon ");
+        String lastName = new String ("Cascaddan");
+        
+        String fullName = firstName.concat(lastName);
+        int firstLength = firstName.length();
+        int lastLength = lastName.length();
+        int fullLength = fullName.length();
+        
+        String CapsName = fullName.toUpperCase();
+        
+        System.out.println("First name: "+firstName);
+        System.out.println("First name length: "+ firstLength);
+        
+        System.out.println("Last name: "+ lastName);
+        System.out.println("Last name length: "+lastLength);
+        
+        System.out.println("Full Name: "+fullName);
+        System.out.println("Full Name Length: " + fullLength);
+        
+        System.out.println(CapsName);
+    }
+}
